@@ -1,0 +1,69 @@
+
+ion-content, .bar .title, .bar small{
+	direction: rtl;
+}
+
+.item-avatar
+{
+	padding-left: 0;
+	padding-right: 72px;
+}
+
+.item-avatar > img:first-child{
+	right: 16px;
+}
+
+.item .badge{
+	left: 16px;
+	right: auto;
+}
+
+.rtl, .popup-body, .loading-container .loading, .popup-buttons, .action-sheet-title, .action-sheet .button{
+	direction: rtl;
+}
+
+.popup-buttons .button{
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.popup-buttons .button:last-child{
+	margin-left: 0;
+}
+
+.item-input input{
+	/*@include flex(1, 0, 180px);*/
+	text-align: right;
+}
+
+.item-select select{
+	right: auto;
+	padding: 0;
+	padding-right: 24px;
+}
+
+.item-select:after{
+	left: 16px;
+	right: auto;
+}
+
+.item-checkbox{
+	padding-left: 0;
+	padding-right: 60px;
+}
+
+.button-bar > .button{
+	border-width: 1px 1px 1px 1px;
+}
+
+.item-note{
+	float: left;
+}
+
+/*ion-slide{
+	text-align: center;
+}*/
+
+ion-slide p{
+	direction: rtl;
+}
