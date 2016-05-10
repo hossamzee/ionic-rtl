@@ -1,7 +1,7 @@
 
 # Ionic RTL.
 
-A right to left (RTL) stylesheets for Ionic.
+Right to left (RTL) stylesheets for Ionic.
 
 # How to use it?
 
